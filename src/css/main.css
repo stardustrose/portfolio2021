@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  background: url('https://images.unsplash.com/photo-1495968596951-e367ad88468d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading h1 {
+  font-weight: 300;
+  font-siZE: 1REM;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding: 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.portfolio i {
+  margin-right: 1em;
+}
+
+.portfolio a {
+  display: block;
+  color: #fff;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  @apply tracking-widest;
+  @apply font-semibold;
+  @apply text-xs;
+}
